@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-  <div className="container">
+  <div className="container" style={{width:"180%"}}>
     <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light" style={{"border-bottom":"1px grey solid"}}>
       <img style={{width: "40px"}}
         className="teamPic"
@@ -30,110 +30,172 @@ function App() {
       </div>
     </nav>
     
-    <div className="banner">
-      <img style={{width: "60px"}}
+    <div className="banner" style={{"text-align": "center"}}>
+      <img style={{width: "60px"},{"margin-left":"50%"}}
         className="teamPic"
         src="https://udaan.com/images/notch.c69471fc6952906ce89974628364884f.png"
         alt="Avatar"
       ></img>
+      <p className="cat00" style={{"font-size":"8px"},{"margin-left":"50%"}}>CATEGORIES</p>
+      <p className="cat" style={{"margin-left":"10%"}}><strong>More than <span style={{color: "red"}}>5 Lakh</span> products</strong></p>
+      </div><div>
       <div className="row">
         <div className="col-4">
-          <div className="row hovering">
-            <div className="col-6">
-              <img style={{width: "60px"}}
+          <div className="row hovering goLeft">
+            <div className="col-3">
+              <img style={{width: "90px"}}
                   className="teamPic"
                   src="https://udaan.azureedge.net/assets/ewhvm3n9ctk2palc7nre.png"
                   alt="Avatar"
               ></img>
             </div>
-            <div className="col-6">
-              <p className="cat10" >Electronics & Appliances</p>
-              <p className="subs">Mobiles Accessories, IT & Accessories, COVID Essentials, Appliances, Smartphones</p>
+            <div className="col-9">
+              <p className="row cat10" >Electronics & Appliances</p>
+              <p className="row subs">Mobiles Accessories, IT & Accessories,<br/> COVID Essentials, Appliances, Smartphones</p>
             </div>
           </div>
-          <div className="row">
-
-          Clothing & Accessories
-
-          Women's Garments, Men's Garments,
-          Women's Ethnic, Women's Western, Kid's Garments
-
+          <div className="row hovering goLeft">
+            <div className="col-3">
+              <img style={{width: "90px"}}
+                  className="teamPic"
+                  src="https://udaan.azureedge.net/assets/ytb416yrb4uyl53wmwtx.png"
+                  alt="Avatar"
+              ></img>
+            </div>
+            <div className="col-9">
+              <p className="row cat10">Clothing & Accessories</p>
+              <p className="row subs">Women's Garments, Men's Garments,<br/> Women's Ethnic, Women's Western, Kid's Garments</p>
+            </div>
           </div>
-          <div className="row">
-
-
-          Luggage & Backpacks
-
-          Luggage & Backpacks, COVID Essentials,
+          <div className="row hovering goLeft">
+            <div className="col-3">
+              <img style={{width: "90px"}}
+                  className="teamPic"
+                  src="https://udaan.azureedge.net/assets/r7jle9jva3f6hdp81dda.png"
+                  alt="Avatar"
+              ></img>
+            </div>
+            <div className="col-9">
+              <p className="row cat10">Luggage & Backpacks</p>
+              <p className="row subs">Luggage & Backpacks, COVID Essentials</p>
+            </div>
+          </div>
+          <div className="row hovering goLeft">
+            <div className="col-3">
+              <img style={{width: "90px"}}
+                  className="teamPic"
+                  src="https://udaan.azureedge.net/assets/ovz6eb05u2j82knrax96.png"
+                  alt="Avatar"
+              ></img>
+            </div>
+            <div className="col-9">
+              <p className="row cat10">Food</p>
+              <p className="row subs">Food - Staples, FMCG,<br/> Fruits & Vegetables, Meat</p>
+            </div>
           </div>
         </div>
         <div className="col-4">
-          <div className="row">
-Medicines
-
-Medicines, OTC/FMCG,
-Generics, Ethicals, Medical Devices
+          <div className="row hovering goLeft">
+            <div className="col-3">
+              <img style={{width: "90px"}}
+                  className="teamPic"
+                  src="https://udaan.azureedge.net/assets/vnnhza6trtob5dfvsd6l.png"
+                  alt="Avatar"
+              ></img>
+            </div>
+            <div className="col-9">
+              <p className="row cat10">Medicines</p>
+              <p className="row subs">Medicines, OTC/FMCG,<br/> Generics, Ethicals, Medical Devices</p>
+            </div>
           </div>
-          <div className="row">
-Home & Kitchen
-
-COVID Essentials, Steel Aluminium Copper Utensils,
-Appliances, Kitchen And Dining, Cleaning & Bathroom
+          <div className="row hovering goLeft">
+            <div className="col-3">
+              <img style={{width: "90px"}}
+                  className="teamPic"
+                  src="https://udaan.azureedge.net/assets/27hm0s6pd9lw5dxbbs8w.png"
+                  alt="Avatar"
+              ></img>
+            </div>
+            <div className="col-9">
+              <p className="row cat10">Home & Kitchen</p>
+              <p className="row subs">COVID Essentials, Steel Aluminium Copper Utensils,<br/> Appliances, Kitchen And Dining, Cleaning & Bathroom</p>
+            </div>
           </div>
-          <div className="row">
-            
-Footwear
-
-Footwear
+          <div className="row hovering goLeft">
+            <div className="col-3">
+              <img style={{width: "90px"}}
+                  className="teamPic"
+                  src="https://udaan.azureedge.net/assets/mlekkys9molzkstbv75i.png"
+                  alt="Avatar"
+              ></img>
+            </div>
+            <div className="col-9">
+              <p className="row cat10">Footwear</p>
+              <p className="row subs">Footwear</p>
+            </div>
+          </div>
+          <div className="row hovering goLeft">
+            <div className="col-3">
+              <img style={{width: "90px"}}
+                  className="teamPic"
+                  src="https://udaan.azureedge.net/assets/m62b8m2bum8bdzma8z0f.png"
+                  alt="Avatar"
+              ></img>
+            </div>
+            <div className="col-9">
+              <p className="row cat10">Toys, Baby & Sports</p>
+              <p className="row subs">Cycles, Toys and Baby Gear,<br/>Baby Gear, Sports & Fitness Gear, Cycles, Toys</p>
+            </div>
           </div>
         </div>
         <div className="col-4">
-          <div className="row">
-Electrical
-Switch & Switch Accessories, Lights & Light Accessories,
-Wires, Electrical Accessories
-
+          <div className="row hovering goLeft">
+            <div className="col-3">
+              <img style={{width: "90px"}}
+                  className="teamPic"
+                  src="https://udaan.azureedge.net/assets/2inu4v2r998l0pvdiiwi.png"
+                  alt="Avatar"
+              ></img>
+            </div>
+            <div className="col-9">
+              <p className="row cat10">Electrical</p>
+              <p className="row subs">Switch & Switch Accessories, Lights & Light Accessories,<br/> Wires, Electrical Accessories</p>
+            </div>
           </div>
-          <div className="row">
-            
-          Fulfillment Material
-
-          Fulfillment Material
+          <div className="row hovering goLeft">
+            <div className="col-3">
+              <img style={{width: "90px"}}
+                  className="teamPic"
+                  src="https://udaan.azureedge.net/assets/r1wk52f0c7rt4fi95wt3.png"
+                  alt="Avatar"
+              ></img>
+            </div>
+            <div className="col-9">
+              <p className="row cat10">Fulfillment Material</p>
+              <p className="row subs">Fulfillment Material</p>
+            </div>
           </div>
         </div>
       </div>
   </div>
-
   <div className="steps" style={{"text-align":"center"}}>
-      <img style={{width: "60px"}}
+      <img style={{width: "90px"}}
           className="teamPic"
           src="https://udaan.com/images/notch.c69471fc6952906ce89974628364884f.png"
           alt="Avatar"
       ></img>
-
       <p className="cat0"><strong>Start trading in 3 simple steps</strong></p>
       <img style={{width: "1300px"},{"margin-bottom":"20px"}}
           className="teamPic"
           src="pic0.png"
           alt="Avatar"
       ></img>
-    {/* <ul className="account">
-      <p>
-        <img className="profile" src="https://png.pngitem.com/pimgs/s/146-1468281_profile-icon-png-transparent-profile-picture-icon-png.png"/>Create An Account
-      </p>
-      <p>
-        <img  className="kyc" src="https://thumbs.dreamstime.com/z/phone-locked-notification-button-password-field-vector-cartoon-illustration-mobile-smartphone-security-personal-access-user-115866272.jpg"/>Complete Shop KYC
-      </p>
-      <p>
-       <img  className="order" src="https://static.vecteezy.com/system/resources/previews/000/646/376/non_2x/online-shopping-flat-icon-vector.jpg"/>Start Ordering
-      </p>
-    </ul> */}
     <button className="btn RegisterButton btn-danger my-2 my-sm-0" type="submit">Register <i class="fas fa-arrow-right"></i></button>
 
   </div>
     <div class="row"  style={{"margin-top":"50px"}}>
       <div class="col-5">
-      <img style={{width: "60px"}}
+      <img style={{width: "90px"}}
           className="teamPic"
           src="https://udaan.com/images/notch.c69471fc6952906ce89974628364884f.png"
           alt="Avatar"
