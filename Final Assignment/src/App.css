@@ -1,0 +1,132 @@
+.MyButton {
+    color: whitesmoke;
+    border: #6c63ff solid 1px;
+    background-color: #6c63ff;
+    width: 50%;
+    font: 150% bold;
+  }
+  .MyButton:hover {
+    color: whitesmoke;
+    box-shadow: 7px 7px 7px rgba(0, 88, 139, 0.4);
+    background-color: #6c63ff;
+    transform: translateY(-2px);
+  }
+.inputRound{
+    border-radius: 4%;
+    width: 99%;
+}
+
+.teamPic {
+  /* border-radius: 50%; */
+  width: 150px;
+  margin-right: 30px;
+}
+
+
+
+
+
+
+.home-container {
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-left-view {
+  height: 89vh;
+  /* margin-top: 70px; */
+  width: 20%;
+  position: fixed;
+  margin-right: 65%;
+}
+
+.home-middle-view {
+  /* margin-top: 70px; */
+  width: 40%;
+}
+
+.home-right-view {
+  border-radius: 5px;
+  /* margin-top: 75px; */
+  /* width: 20%; */
+  position: fixed;
+  /* margin-left: 65%; */
+}
+
+.home-right-view::-webkit-scrollbar {
+  display: none;
+}
+
+.notice-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 10px; */
+  /* height: 50px; */
+  border: none;
+  font-size: large;
+  background-color: #f7f7f7;
+}
+.teamCol {
+  padding: 2%;
+  background-color: white;
+}
+.teamName {
+  font: 190% bold;
+  padding: 2%;
+}
+.teamNameID {
+  font: 150% bold;
+}
+.teamCardUp {
+  background-color: white;
+  margin-top: 10px;
+  box-shadow: 0 -2px 7px 3px rgb(44, 44, 65);
+}
+.teamCardDown {
+  background-color: white;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 7px 3px rgb(44, 44, 65);
+  transition: box-shadow 0.5s;
+}
+.teamCardDown:hover {
+  box-shadow: 0 3px 13px 3px rgb(31, 31, 185);
+}
+.teamCardLeft {
+  margin-left: 10px;
+}
+.teamCardRight {
+  margin-left: 50px;
+}
+
+.forumContainer {
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.forum-left-view {
+  
+  height: 89vh;
+  margin-top: 70px;
+  width: 15%;
+  position: fixed;
+  margin-right: 80%;
+}
+
+.forum-middle-view {
+  
+  /* margin-top: 70px; */
+  width: 60%;
+}
+
+.forum-right-view {
+  
+  /* margin-top: 75px; */
+  width: 10%;
+  position: fixed;
+}
+.eduhubFooter {
+  font-size: 13px;
+}
